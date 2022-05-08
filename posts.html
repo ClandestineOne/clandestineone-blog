@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="css/bootstrap-5.1.3/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/pagination.css">
-  <link href="https://v1.indieweb-avatar.11ty.dev" rel="preconnect" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <!--End Link-->
   <!--Start Title-->
   <title>Clandestine Blog | Posts</title>
@@ -41,10 +41,10 @@
             <a class="nav-link fw-bold text-danger" href="home.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold text-danger" href="posts.html">Posts</a>
+            <a class="nav-link fw-bold text-info" href="#">Posts</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold text-info" href="#">Links</a>
+            <a class="nav-link fw-bold text-danger" href="links.html">Links</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fw-bold text-danger" href="about.html">About</a>
@@ -63,56 +63,49 @@
   </nav>
   <!--End Nav-->
   <main class="container mt-4">
-    <div class="row">
+    <div class="row ">
       <div class="col-md-8">
-        <div class="card card-body border border-danger" style=" background-color: #1a1a1abe;">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="card w-100 bg-dark border border-secondary my-2">
-                <div class="card-body">
-                  <h5 class="card-title text-danger fw-bold">Tools & Utilitys </h5>
-                  <div class="" inject_html="links/tools-utilitys.html"></div>
-                </div>
-              </div>
-              <div class="card w-100 bg-dark border border-secondary my-2">
-                <div class="card-body">
-                  <h5 class="card-title text-danger fw-bold">Services</h5>
-                  <div class="" inject_html="links/services.html"></div>
-                </div>
-              </div>
-              <div class="card w-100 bg-dark border border-secondary my-2">
-                <div class="card-body">
-                  <h5 class="card-title text-danger fw-bold">Privacy & Security Podcast's</h5>
-                  <div class="" inject_html="links/podcasts.html"></div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="card w-100 bg-dark border border-secondary my-2">
-                <div class="card-body">
-                  <h5 class="card-title text-danger fw-bold">Communitys & Crators</h5>
-                  <div class="" inject_html="links/communitys-creators.html"></div>
-                </div>
-              </div>
-            </div>
+        <h3 id="april-22" class="py-3 text-center fw-bold border border-danger rounded my-3 text-light" style=" background-color: #1a1a1abe;"> April 2022 </h3>
+        <div class="card border border-danger rounded overflow-hidden flex-md-row mb-3 shadow-sm h-md-250 position-relative" style=" background-color: #1a1a1abe;">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0 text-danger fw-bold"> Home Brew Covid-19 Card</h3>
+            <div class="mb-1 text-secondary">Nov 12</div>
+            <p class="card-text text-light fw-bold mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="stretched-link fw-bold">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="site-resources/covid-19/post-200x250.png" class="bd-placeholder-img" width="200" height="250" xmlns="site-resources/old-covid-19-card-384-228/svg/Covid-19-Front-384x228.svg" role="img" aria-label="Placeholder: Thumbnail"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+          </div>
+        </div>
+        <div class="card border border-danger rounded overflow-hidden flex-md-row mb-3 shadow-sm h-md-250 position-relative" style=" background-color: #1a1a1abe;">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0 text-danger fw-bold">Ten Privacy Deffence Apps</h3>
+            <div class="mb-1 text-secondary">Nov 12</div>
+            <p class="card-text text-light fw-bold mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="stretched-link fw-bold">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="site-resources/android/apps/apps-1.png" class="bd-placeholder-img" width="200" height="250" xmlns="site-resources/old-covid-19-card-384-228/svg/Covid-19-Front-384x228.svg" role="img" aria-label="Placeholder: Thumbnail"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="position-sticky">
-          <div class="border border-danger rounded" style=" background-color: #1a1a1abe;">
-            <iframe allowfullscreen sandbox="allow-top-navigation allow-scripts" width="100%" height="550"
-              src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fqoto.org%2Fusers%2FClandestineOne&theme=dark&size=75&header=true&replies=false&boosts=true"></iframe>
+          <div class="border border-danger rounded" style=" background-color: #282c37;">
+            <iframe class="py-2 px-2" allowfullscreen sandbox="allow-top-navigation allow-scripts" width="100%" height="550"
+              src="https://www.mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fqoto.org%2Fusers%2FClandestineOne&theme=dark&size=80&header=true&replies=false&boosts=false"></iframe>
           </div>
           <!-- Archives Start -->
           <div class="border border-danger rounded my-3" style=" background-color: #1a1a1abe;">
             <h4 class="fw-bold text-center text-danger my-2">Archives</h4>
             <ul class="mx-2 mb-3 text-light">
-              <li class="fw-bold"><a href="posts.html#april-22">April 2022</a></li>
+              <li class="fw-bold"><a class="nav-link" href="posts.html#april-22">April 2022</a></li>
             </ul>
           </div>
           <!-- Archives End -->
-          <div class="border border-danger rounded my-3 " style=" background-color: #1a1a1abe;">
+          <div class="border border-danger rounded my-3" style=" background-color: #1a1a1abe;">
             <footer class="mb-4 mt-3">
               <ul class="nav justify-content-center border-bottom border-danger pb-3 mb-3">
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-info fw-bold">Home</a></li>
@@ -129,30 +122,8 @@
   <script src="js/popper-1.11.0/popper.min.js"></script>
   <script src="js/bootstrap-5.1.3/bootstrap.min.js"></script>
   <script src="js/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <script src="../js/inject(.html).js"></script>
-  <!--Start HTMLinject Script-->
-  <script>
-    /*
-        @licstart  The following is the entire license notice for the JavaScript code in this page.
-        ------------------------------------------------------------------------
-        inject(.html) allows the insertion of any HTML document into any HTML document for ease of maintenance.
-            Copyright (C) 2020  ClandestineOne
-
-            This program is free software: you can redistribute it and/or modify
-            it under the terms of the GNU General Public License as published by
-            the Free Software Foundation, either version 3 of the License, or
-            (at your option) any later version.
-
-            This program is distributed in the hope that it will be useful,
-            but WITHOUT ANY WARRANTY; without even the implied warranty of
-            MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-            GNU General Public License for more details.
-        ------------------------------------------------------------------------
-        @licend  The above is the entire license notice for the JavaScript code in this page.
-    */
-    inject_html();
-  </script>
-  <!--End Of HTMLinject Script-->
+  <script defer src="https://friconix.com/cdn/friconix-0.2248.js"> </script>
+  <script src="js/inject(.html).js"></script>
 </body>
 
 </html>

@@ -18,3 +18,24 @@
     background-size: cover;
     -o-background-size: cover;
   }
+  .fav-a[href^="http"] {
+    padding-left: 19px;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+  .fav-a[href*="https://b2bsprouts.com/email-validation-tool/"]{
+    background-image: url(https://www.google.com/s2/favicons?https://b2bsprouts.com/email-validation-tool/);
+  }
+  .fav-a[href*="centralops.net"]{
+    background-image: url(https://www.google.com/s2/favicons?centralops.net);
+  }
+  .fav-a[href*="codepen.io"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=codepen.io);
+  }
+
+  .fav-a  {
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+  }

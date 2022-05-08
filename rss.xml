@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>ClandestineOne.com - Blog</title>
+  <link>https://www.clandestineone.com</link>
+  <description>Free web building tutorials</description>
+  <language>en-us</language>
+  <copyright>Copyright 2022 clandestineone.com</copyright>
+  <lastBuildDate>Tue, 12 Apr 2022</lastBuildDate>
+
+
+  <item>
+    <title>ClandestineOne Blog Launch</title>
+    <link>https://www.clandestineone.com</link>
+    <description>ClandestineOne Blog \ New Website</description>
+  </item>
+
+</channel>
+
+</rss>
